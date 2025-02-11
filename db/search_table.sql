@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3309
--- Generation Time: Feb 11, 2025 at 10:23 AM
+-- Generation Time: Feb 11, 2025 at 10:44 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -39,12 +39,13 @@ CREATE TABLE `search_table` (
 --
 
 INSERT INTO `search_table` (`sn`, `title`, `description`, `img`) VALUES
-(1, 'html', 'abdsjsadujkdhuawd', '1.jpg'),
-(2, 'js', 'sjdhasjhduqwidhjaskdjkwwd', '2.jpg'),
-(3, 'php', 'snbadjasdhajdhuiq', '3.jpg'),
-(4, 'java', 'jsahdasyduashdasjdhj', '4.jpg'),
-(5, 'css', 'hsdgasjdgadsghj', '5.webp'),
-(7, 'pearl', 'jnsamcbxnbcasjkb', '6.webp');
+(1, 'html', 'The backbone of web pages, defining their structure using tags like <div>, <p>, and <img>. It works alongside CSS and JavaScript.', '1.jpg'),
+(2, 'js', 'A dynamic, client-side scripting language that enables interactivity on websites, such as animations, form validation, and API calls.', '2.jpg'),
+(3, 'php', 'A server-side scripting language mainly used for web development. It powers many websites and frameworks like WordPress and Laravel.', '3.jpg'),
+(4, 'java', 'A versatile, object-oriented programming language used for web, mobile, and enterprise applications. It runs on the JVM (Java Virtual Machine) and follows the \"write once, run anywhere\" principle.', '4.jpg'),
+(5, 'css', 'A styling language that controls the look and layout of web pages. It includes properties like colors, fonts, and responsive design.', '5.webp'),
+(7, 'pearl', 'A powerful scripting language known for text processing, system administration, and web development. It excels in regular expressions and automation tasks.', '6.webp'),
+(8, 'mugi', 'xada', '7.webp');
 
 --
 -- Indexes for dumped tables
@@ -64,7 +65,7 @@ ALTER TABLE `search_table`
 -- AUTO_INCREMENT for table `search_table`
 --
 ALTER TABLE `search_table`
-  MODIFY `sn` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `sn` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
