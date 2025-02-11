@@ -10,7 +10,7 @@ if (!empty($search)) {
     $search = mysqli_real_escape_string($conn, $search);
 
 
-    $sql = "SELECT * FROM search_table WHERE title LIKE '%$search%'";
+    $sql = "SELECT * FROM search_table WHERE title LIKE '%$search%' OR description LIKE '%$search%'";
 
 
     $result = mysqli_query($conn, $sql);
